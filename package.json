@@ -1,0 +1,30 @@
+{
+  "name": "booktokennft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "truffle test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "@thirdweb-dev/react": "^3.6.6",
+    "@thirdweb-dev/sdk": "^3.6.6",
+    "ethers": "^5.7.2",
+    "next": "12.1.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "truffle-hdwallet-provider": "^1.0.6",
+    "web3": "^1.8.1"
+  }
+}
